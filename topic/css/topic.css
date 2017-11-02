@@ -1,0 +1,260 @@
+#wholetopic{
+	width: 710px;
+	margin: 20px auto;
+}
+#alltopic{
+	float: left;
+	width: 710px;
+	height: auto;
+	color: #807E7E;
+}
+#topic{
+	width: 710px;
+	height: 385px;
+	margin: 20px auto;
+	/*border: 1px solid #000000;*/
+}
+#exprience{
+	width: 620px;
+	height: 105px;
+	float: left;
+}
+#expriencectu{
+	width: 620px;
+	height: 105px;
+	float: left;
+}
+#placeitd{
+	width: 705px;
+	height: 75px;
+	float: left;
+	margin-bottom: 20px;
+}
+#expriencepic{
+	width: 80px;
+	height: 80px;
+	background: url(../images/addpic.jpg) no-repeat left top;
+	background-position:center center;
+    background-size: 50px 50px;
+    border: 1px solid #AAAAAA;
+	float: left;
+	margin-top: 1px;
+}
+#expriencepicctu{
+	width: 80px;
+	height: 80px;
+	background: url(../images/addpic.jpg) no-repeat left top;
+	background-position:center center;
+    background-size: 50px 50px;
+    border: 1px solid #AAAAAA;
+	float: left;
+	margin-top: 1px;
+}
+#expriencepic img{
+	width: 80px;
+	height: 80px;
+}
+#expriencepicctu img{
+	width: 80px;
+	height: 80px;
+}
+#expriencebut{
+	width: 80px;
+	height: 30px;
+	float: left;
+	text-align: center;
+}
+#expriencebutctu{
+	width: 80px;
+	height: 30px;
+	float: left;
+	text-align: center;
+}
+#topicopen{
+	width: 640px;
+	height: 18px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 2px;
+	margin-bottom: 5px;
+	background: url(../images/bg1.jpg) no-repeat left bottom;
+}
+#topicopenctu{
+	width: 640px;
+	height: 20px;
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	background: url(../images/bg1.jpg) no-repeat left bottom;
+}
+#resetexp{
+	width: 40px;
+	height: 20px;
+	float: left;
+	border: 1px solid #AAAAAA;
+	margin:0 10px 0 600px;
+	text-align: center;
+	background-color: #438FF6;
+	color: #ffffff;
+	font-size: 12px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+#resetexpctu{
+	width: 40px;
+	height: 20px;
+	float: left;
+	border: 1px solid #AAAAAA;
+	margin:0 10px 0 600px;
+	text-align: center;
+	background-color: #438FF6;
+	color: #ffffff;
+	font-size: 12px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+#resetexp:hover{
+    background-color: #3f4cef;
+}
+#resetexpctu:hover{
+    background-color: #3f4cef;
+}
+#shareexp{
+	width: 40px;
+	height: 20px;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	border: 1px solid #AAAAAA;
+	background-color: #438FF6;
+	color: #ffffff;
+	font-size: 12px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+#shareexpctu{
+	width: 40px;
+	height: 20px;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	border: 1px solid #AAAAAA;
+	background-color: #438FF6;
+	color: #ffffff;
+	font-size: 12px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+#shareexp:hover{
+	background-color: #3f4cef;
+}
+#shareexpctu:hover{
+	background-color: #3f4cef;
+}
+.topic1{
+	width: 710px;
+	height: 780px;
+	/*border: 2px solid #e7e7e7;*/
+	float: left;
+}
+.topic2{
+	width: 710px;
+	height: 650px;
+	/*border: 2px solid #e7e7e7;*/
+	float: left;
+}
+.topichpic{
+	width: 90px;
+	height: 90px;
+	border: 2px solid #e7e7e7;
+    border-radius: 20px;
+    float: left;
+    margin: 20px 0 0 20px; 
+}
+.topicword{
+	float: left;
+    margin: 20px 0 0 20px; 
+    width: 500px;
+    height: 90px;
+    /*border: 2px solid #e7e7e7;*/
+}
+.topicfgx{
+	width: 710px;
+	border: 1px solid #e7e7e7;
+	float: left;
+	margin: 20px 0 20px 0; 
+}
+.topictime{
+	width: 650px;
+	height: 20px;
+	float: left;
+	/*border: 1px solid #e7e7e7;*/
+	margin:0 0 10px 28px;
+}
+.topicmword{
+	width: 650px;
+	height: 65px;
+	float: left;
+	/*border: 1px solid #e7e7e7;*/
+	margin-left: 28px;
+	word-wrap:break-word;
+	overflow: hidden;
+}
+.topicmpic{
+	width: 650px;
+	height: 500px;
+	float: left;
+	border: 2px solid #e7e7e7;
+	margin:5px 0 0 28px;
+}
+.topicmpic img{
+	width: 650px;
+	height: 500px;
+}
+.topicword1{
+  float: left;
+  width: 500px;
+  height: 20px;
+  /*border: 1px solid #e7e7e7;*/
+  margin-top: 5px;
+  overflow: hidden;
+}
+.topicword2{
+  float: left;
+  width: 320px;
+  height: 60px;
+  /*border: 1px solid #e7e7e7;*/
+  word-wrap:break-word;
+  overflow: hidden;
+}
+#continued{
+	float: left;
+	width: 710px;
+	height: 200px;
+	/*border: 1px solid #000000;*/
+}
+.topicclose{
+	float: right;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background-color: #C7C4C4;
+	font-size: 15px;
+	display: block;
+	cursor: pointer;
+}
+#topicline{
+	margin: 0 auto;
+    padding-top: 20px;
+    width: 710px;
+    color: #383838;
+    font-size: 16px;
+}
+#intopicline {
+    background-color: #188946;
+    float: left;
+    height: 25px;
+    margin-right: 4px;
+    width: 3px;
+}

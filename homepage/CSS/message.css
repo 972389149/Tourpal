@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+#FGX{
+	width: 715px;
+	border:1px solid #e7e7e7;
+	float: left;
+	margin-top: 20px;
+}
+#FGXWord{
+	width: 200px;
+	/*border:1px solid #e7e7e7;*/
+	float: left;
+}
+#FGX2{
+	width: 510px;
+	border:1px solid #e7e7e7;
+	float: left;
+	margin-top: 10px;
+}
+#FGEBOX{
+	width: 715px;height: 25px;
+	float: left;
+	margin-top: 30px;
+	/*border:1px solid #e7e7e7;*/
+
+}
+#FGEBOXW1{
+	font-size: 16px;
+}
+#FGEBOXW2{
+	font-size: 12px;
+	color: #666666;
+}
+#flowpic
+{
+	width:700px;height:750px;
+	margin-top:15px;margin-left:9px;
+	/*border:#15C519 solid 1px;*/
+	float:left;
+}
+/*相关信息*/
+#wholemessage
+{
+	width:720px;height:150px;
+	border-bottom:#E1E1E1 2px solid;
+    /*border:#000000 1px solid;*/
+	margin-top:15px;
+	float:left;
+}
+#message2
+{
+	width:330px;height:125px;
+	/*border:#000000 1px solid;*/
+	border-left:#E7E7E7 2px dotted;
+	margin-top:10px;padding-left:15px;
+	float: left; margin-left: 25px;
+}
+#messagePic{
+	/*border:1px solid #000000;*/
+	width: 120px;height: 120px;
+	float: left;
+}
+#holdmessage
+{
+	width:180px;height:120px;
+	float:left;
+	margin-top: 15px;
+}
+#holdmessageLeft{
+	width:86px;height:120px;
+	float: left;
+	margin-left: 70px;
+	margin-top: 15px;
+}
+#holdmessageLeft img{
+	width: 100px;
+	height: 100px;
+	transition-duration: 0.3s;
+}
+#holdmessageLeft img:hover{
+    width: 130px;
+    height: 130px;
+    margin-left: -30px;
+}
+
+
+ /*导航下面轮播的图片*/
+  
+#messagePictrue{                       
+   width:700px;height:300px;
+   border:#E7E7E7 solid 2px;
+   margin:0;position:relative;
+   overflow:hidden;
+   border-radius: 9px;
+}
+#inmessagePictrue{
+	width:6000px;height:300px;
+	/*border:#000000 1px solid;*/
+	position:absolute;
+	z-index:1;
+
+}
+#inmessagePictrue img{
+	width:700px;height:300px;
+	float:left;
+}
+#rounds { 
+position: absolute; height: 10px; width: 110px; z-index: 3; bottom: 10px; right: 12px;
+}
+ #rounds span {
+	  cursor: pointer; float: left; border: 1px solid #fff; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px;
+	  }
+ #rounds .on {  background-color: #e7e7e7;}
+ #left { left: 5px;}
+#right { right: 5px;}
+ .arrowed {
+	  display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute ;z-index: 2; top: 150px; color: #fff;
+	 }
+  
+/*轮播图片上的文字*/
+#Picword{
+	width: 150px;height: 300px;
+	/*border:1px solid #F90505;*/
+	position: absolute;
+	z-index: 2;
+	right: 0px;
+	background-color:#191919;
+	opacity:0.5;
+	border-bottom-left-radius: 15px;
+}
+#Picworda{
+	width: 100px;height: 200px;
+	float: left;
+	margin-top:10px;
+	margin-left: 25px;
+}
+#Picword1{
+	color: #ffffff;
+	font-size: 17px;
+}
+#Picword2{
+	color: #ffffff;
+	font-size: 11px;
+}
+
+
+/*轮播照片下的介绍*/
+.messageshare1{
+	height: 160px;width: 160px;
+	/*border:1px solid #000000;*/
+	margin-top: 40px;margin-left: 55px;
+	border-bottom: 1px solid #e7e7e7;
+	float: left;
+	cursor: pointer;
+}
+.messageshare1 img{
+	height: 120px;width: 160px;
+	border-radius: 5px;
+}
+.messageshare2{
+	height: 160px;width: 160px;
+	/*border:1px solid #000000;*/
+	margin-top: 40px;margin-left: 55px;
+	border-bottom: 1px solid #e7e7e7;
+	float: left;
+	cursor: pointer;
+}
+.messageshare2 img{
+	height: 120px;width: 160px;
+	border-radius: 5px;
+}
+.underW{
+	width: 160px;height: 20px;
+	/*border:solid 1px #060606;*/
+	position: absolute;
+	background-color: #ffffff;
+	z-index: 2;
+	color: #666666;
+}
+.underW1{
+    width: 150px;height: 25px;
+	/*border:solid 1px #060606;*/
+	position: absolute;
+	z-index: 1;
+	color: #666666;
+}
+.underW1 img{
+	width:10px; height:10px;
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+/*驴友推荐*/
+#wholetravel
+{
+    width:65
+    0px;height:304px;
+	
+	margin:35px 0 0 55px;
+	float:left;
+}
+#travel1
+{
+	width:125px;height:145px;
+    border:0px;
+	padding-top:10px;padding-left:25px;
+	/*border:1px solid #000000;*/
+	float:left;
+}
+#travel2
+{
+	width:125px;height:145px;
+	/*border:1px solid #000000;*/
+	padding-top:10px;padding-left:25px;
+	float:left;
+}
+#travel3
+{
+	width:125px;height:145px;
+	/*
+	*/
+	padding-top:10px;padding-left:25px;
+	float:left;
+}
+.recommendWord{
+	font-family:微软雅黑;font-size:15px;
+	color:#666666;
+	list-style:none;
+}
+.recommendPic{
+    width:110px;
+    height:110px;
+    border-radius: 15px;
+    margin-left: -5px;
+    transition-duration: 0.5s;
+    margin-top: 10px;
+}
+.recommendPic:hover{
+	width:110px;
+    height:110px;
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(1.1);
+}
+#travelword
+{
+    width:140px;height:160px;
+	border-right:#B8B7B7 2px dotted;
+	padding-top:10px;padding-left:10px;
+	float:left;
+}
+#travelword1
+{
+    width:140px;height:160px;
+	border-right:#B8B7B7 2px dotted;
+	padding-top:10px;padding-left:10px;
+	float:left;
+}
+#travelword2
+{
+	width:140px;height:160px;
+	float:left;
+	padding-top:10px;padding-left:10px;
+}
+/*攻略图片里的CSS*/
+#bigbox
+{
+   width:502px;height:342px;
+   border:#E7E7E7 solid 2px;
+   margin:0;position:relative;
+    overflow:hidden;
+}
+#lists
+{
+	width:2600px;height:342px;
+	/*border:#000000 1px solid;*/
+	position:absolute;
+	z-index:1;
+	
+}
+#lists img
+{
+	width:502px;height:364px;
+	float:left;
+}
+#prev { left: 5px;}
+#next { right: 5px;}
+ .arrow {
+	  display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute ;z-index: 2; top: 150px; color: #fff;
+	 }
+#bigbox:hover .arrow { display: block;}
+#buttons { 
+position: absolute; height: 10px; width: 100px; z-index: 2; bottom: 10px; left: 230px;
+}
+ #buttons span {
+	  cursor: pointer; float: left; border: 1px solid #fff; width: 10px; height: 10px; border-radius: 50%;margin-right: 5px;
+	  }
+ #buttons .on {  background: #e7e7e7;}

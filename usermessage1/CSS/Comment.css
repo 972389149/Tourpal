@@ -1,0 +1,139 @@
+  a{
+  	text-decoration: none;
+  }
+    #comment{                                /*整个评论区的*/
+        margin-left: 30px;
+        width: 652px;height: 660px;
+        /*border:1px solid #000000;*/
+        float: left;
+    }
+    #commentMid1{                          /*多少人觉得赞*/
+        float: left;
+        width: 642px;height: 30px;
+        /*border:1px solid #000000;*/
+        margin-top: 5px;
+        background-color: #F7F7F7;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .user {                       /*“我”的字体颜色*/
+    	color: #369; 
+    }
+    .time{                          /*评论左上角的发表时间*/
+        color: #ccc;
+         float: left; 
+         height: 20px; 
+         padding-left: 20px; 
+         background: url('../Pictures/bg1.jpg') no-repeat left top;
+    }
+    .praise{                        /*右上角的赞*/
+    	color: #369; 
+    	float: right; 
+    	height: 20px;
+    	 padding-left: 20px;
+    	 background: url("../Pictures/praise.png") no-repeat left top;
+    	 /*border:1px solid #000000;*/
+    }
+     .praise:hover { 
+     	text-decoration: underline; 
+     	background: url("../Pictures/bg3.jpg") no-repeat left top;
+     }
+    .praises-total{ margin: 0 0 10px 0; 
+    	height: 20px; 
+    	background: url('../Pictures/bg2.jpg') no-repeat 5px 5px rgb(247, 247, 247); 
+    	padding: 5px 0 5px 25px;
+    	line-height: 19px;
+    }
+    .comment-box {                          /*最顶端的时间和赞的盒子*/                    
+    	padding: 10px 0; 
+    	border-top: 1px solid #eee;
+    	float: left;
+    }
+/*        .comment-box:hover { 
+        	background: rgb(247, 247, 247);
+        }*/
+        .comment-box .myhead {              /*头像*/
+         float: left; 
+         width: 55px; height: 55px; 
+         margin-right: 10px;
+         margin-top: 10px;
+     }
+        .comment-box .comment-content {        /*装评论内容的盒子*/
+        	float: left; 
+        	width: 585px;
+        	margin-top: 10px; 
+        	/*border:1px solid #000000; */
+        }
+        .comment-box .comment-content .comment-time {       /*评论的时间*/
+        	color: #ccc; 
+        	margin-top: 3px; 
+        	line-height: 16px; 
+        	position: relative;
+        }
+        .comment-box .comment-content .comment-praise{           /*评论的赞*/
+        	display: none; 
+        	color: #369; 
+        	padding-left: 17px; 
+        	height: 20px; 
+        	background: url("../Pictures/praise.png") no-repeat;  
+        	position: absolute; 
+        	bottom: 0px; 
+        	right: 44px;
+        }
+        .comment-box .comment-content .comment-operate {           /*删除的盒子*/
+        	display: none; 
+        	color: #369; 
+        	height: 20px;  
+        	position: absolute; 
+        	bottom: 0px; 
+        	right: 10px;
+        }
+        .comment-box .comment-content:hover .comment-praise{    /*鼠标滑过时显示*/
+        	display: inline-block;
+        }
+        .comment-box .comment-content:hover .comment-operate{  /*鼠标滑过时显示*/
+        	display: inline-block;
+        }
+        .text-box .comment { 
+        	border: 1px solid #eee; 
+        	display: block; 
+        	height: 15px; width: 640px; 
+        	padding: 5px; 
+        	resize: none; 
+        	color: #ccc
+        }
+        .text-box .btn {                               /*文本域回复按钮*/
+        	font-size: 12px; 
+        	font-weight: bold; 
+        	display: none; 
+        	float: right; 
+        	width: 65px; 
+        	height: 25px; 
+        	border: 1px solid #0C528D; 
+        	color: #fff; 
+        	background: #4679AC;
+        }
+        .text-box .btn-off { 
+        	border: 1px solid #ccc; 
+        	color: #ccc; 
+        	background: #F7F7F7;
+        }
+        .text-box .word{                        
+        	display: none; 
+        	float: right; 
+        	margin: 7px 10px 0 0; 
+        	color: #666;
+        }
+        .text-box-on .comment{ 
+        	height: 50px; 
+        	color: #333;
+        }
+        .text-box-on .btn{ 
+        	display: inline;
+        }
+        .text-box-on .word{ 
+        	display: inline;
+        }
+        .hidden{                     /*鼠标移开后删除和回复隐藏*/
+        	display: none
+        }

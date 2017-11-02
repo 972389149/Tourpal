@@ -1,0 +1,82 @@
+#wholediv{
+margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+  width:720px;
+  height:4050px;
+  z-index:999;
+  color: #666666;
+    }
+    body{
+	  margin:0 auto;padding:0;
+	  font-family:微软雅黑;
+	  font-size:12px;
+    }
+/*    #top{
+        float: left;
+        border:1px solid #000000;
+        height: 150px;width: 720px;
+    }*/
+    #userHeadPic{
+    	float: left;
+    	/*border:1px solid #000000;*/
+    	width: 100px;height: 100px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    #userWord{
+    	float: left;
+    	/*border:1px solid #000000;*/
+    	width: 520px;height: 90px;
+        padding-top: 10px;
+        padding-left: 20px;
+        margin-top: 15px;
+    }
+    #userWord1{
+        color: #383838;
+        font-size: 16px;
+    }
+    .userPic{
+    	float: left;
+    	border:3px solid #e7e7e7;
+    	width: 650px;height: 500px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+    }
+    .message{
+    	float: left;
+    	/*border:1px solid #000000;*/
+        border-top: 2px solid #e7e7e7;
+    	width: 652px;height: 80px;
+        padding-top: 20px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .messageHeadWord{
+        font-size: 16px;
+        color: #585151;
+    }
+    #comment{                       /*装评论的盒子*/
+        margin-left: 30px;
+        width: 652px;
+        /*border:2px solid #000000;*/
+        float: left;
+        height: 550px;
+
+    }
+   #up {
+  width:40px;
+  height:40px;
+  display:none;
+  position:fixed;
+  background:url(../Pictures/top.png) no-repeat left top;
+  right:255px;
+  bottom:10px;
+  cursor:pointer;
+  transition-duration: 0.4s;
+  border:1px solid #AAAAAA;
+}
+#up:hover {
+  background-color:#191919;
+  opacity:0.5;
+}

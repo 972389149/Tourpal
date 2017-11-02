@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+	body{
+		margin: 0px;
+		font-family: 微软雅黑;
+		color: #383838;
+		 /*background: linear-gradient(to right, #e7e7e7 , #ffffff,#ffffff,#e7e7e7)*/
+	}
+		/*#bigboxReg{
+		                               
+			width: 500px;height: 680px;
+			float: left;
+			margin-left: 130px;
+			border: 1px solid #000000; 
+		}*/
+		#bigboxReg{
+		                               /*内容部分的大盒子*/
+			width: 500px;height: 580px;
+			margin: 0 auto;
+			margin-top: 14px;
+			background-color:#191919;
+	        opacity:0.8;
+		}
+		#logoword{
+			margin-left:100px;
+			margin-top: 5px; 
+			font-family: 微软雅黑;
+			font-size: 25px;
+			float: left;
+			color: #575555;
+		   /* border: 2px solid #E7E7E7;	*/
+			padding-left:35px;
+			height: 25px;
+			width: 720px;
+			padding-top: 20px;
+			padding-left: 75px;
+		}
+		#FGX4{
+			width: 100%;
+			border:1px solid #e7e7e7;
+			float: left;
+			display: none;
+			margin-top: 20px;
+		}

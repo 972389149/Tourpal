@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+		#main2{
+			margin:20px 0 0 104px;
+			/*border: 1px solid #000000;*/
+			width: 270px;height: 50px;
+			float: left;
+			border-radius: 15px;
+			background-color: #438FF6;
+			cursor: pointer;
+			transition-duration: 0.3s;
+		}
+		#main2:hover{
+			background-color: #3C15EA;
+		}
+		#word2{
+			margin-top: 11px;margin-left: 115px;
+		}
+		#word3{
+			color: #FFFFFF;
+			font-size: 18px;
+		}

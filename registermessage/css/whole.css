@@ -1,0 +1,111 @@
+#wholeregistermessage{
+	float: left;
+	width: 100%;
+	height: 606px;
+	background:url(../../homepage/pictures/elephant.jpg) no-repeat left top;
+	background-size:100% 100%;
+}
+#inwholeregistermessage{
+	margin: auto;
+	width: 720px;
+	height: 550px;
+	margin-top: 30px;
+	background-color:#191919;
+	opacity:0.8;
+}
+#registerhead{
+    float: left;
+    width: 720px;
+    height: 40px;
+    font-size: 19px;
+    color: #666666;
+    text-align: center;
+    padding-top: 10px;
+    /*border: 1px solid #000000;*/
+}
+#registermessage1{
+	float: left;
+	margin-left: 100px;
+	width:250px;
+	height: 380px;
+	/*border: 1px solid #000000; */
+}
+#registermessage2{
+	float: right;
+	margin-right: 100px;
+	width:250px;
+	height: 380px;
+	/*border: 1px solid #000000; */
+}
+#inwholeregistermessage input{
+	width: 150px;
+}
+#comfirm{
+	float: left;
+	margin:15px 0 0 210px;
+	padding-top: 3px;
+	width: 300px;
+	height: 37px;
+	text-align: center;
+	font-size: 22px;
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #438FF6;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+}
+#comfirm:hover{
+	background-color: #1B32D7;
+}
+.personal1{
+    width: 230px;
+    height: 25px;
+    /*border: 1px solid #000000;*/
+    float: left;
+    margin:18px 0 0 10px;
+    color: #666666;
+}
+.personal2{
+    width: 170px;
+    height: 20px;
+    /*border: 1px solid #000000;*/
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666666;
+    padding-left: 40px;
+}
+#birthday1{
+	width: 170px;
+    height: 20px;
+    /*border: 1px solid #000000;*/
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666666;
+    padding-left: 55px;
+}
+#sex option{
+	width: 128px;
+}
+#language option{
+	width: 128px;
+}
+#bloodtype option{
+	width: 128px;
+}
+#birthdaya{
+	width: 40px;
+}
+#birthdayb{
+	width: 40px;
+}
+#birthdayc{
+	width: 40px;
+}
+.registerwhite{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+

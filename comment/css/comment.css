@@ -1,0 +1,362 @@
+    body{
+	  margin:0 auto;padding:0;
+	  font-family:微软雅黑;
+	  font-size:12px;
+    }
+*{
+    margin: 0px;padding: 0px; 
+}
+    #up{
+        width: 40px;height: 40px;
+        display: none;
+        position: fixed;
+        background: url(../../comment/images/top.png) no-repeat left top;
+        right:250px; bottom:10px;
+        cursor: pointer;
+    }
+    #up:hover {
+        width: 40px;height: 40px;
+        display: block;
+        position: fixed;
+        background: url(../../comment/images/top.png) no-repeat 0 -40px;
+        right:250px; bottom:10px;
+        cursor: pointer;
+    } 
+#wholecomment{
+	float: left;
+  width: 720px;
+}
+#part0{
+    width: 720px;
+    float: left;
+    border-top: 2px solid #e7e7e7;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+#part1{
+	width: 720px;
+	float: left;
+	border-top: 2px solid #e7e7e7;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+#part2{
+	width: 720px;
+	 float: left;
+	border-top: 2px solid #e7e7e7;
+	padding-top: 20px;
+	margin-top: 30px;
+
+	
+}
+#part3{
+	width: 720px;
+	float: left;
+	border-top: 2px solid #e7e7e7;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+#part4{
+	width: 720px;
+	float: left;
+	border-top: 2px solid #e7e7e7;
+	padding-top: 20px;
+	margin-top: 30px;
+	
+}
+#part5{
+	width: 720px;
+	float: left;
+	border-top: 2px solid #e7e7e7;
+	padding-top: 20px;
+	margin-top: 50px;
+	padding-bottom: 60px;	
+}
+.head{
+	float: left;
+	width: 90px;
+	height: 90px;
+	margin-right: 10px;
+	border-radius: 50%;
+  border: 2px solid #aaa;
+}
+.txt{
+     height: 90px;width: 600px;
+     /*border:1px solid #000000;*/
+     float: left;
+}
+.txtword{
+	 height: 30px;width: 580px;
+     /*border:1px solid #000000;*/
+     float: left;
+     padding-left: 20px;
+     color: #666666;
+     font-size: 20px;
+}
+.txtpictrue{
+	 height: 30px;width: 550px;
+     /*border:1px solid #000000;*/
+     float: left;
+     color: #666666;
+     font-size: 13px;
+     background: url("../../comment/images/bg1.jpg") no-repeat left top;
+     padding-left: 20px;
+     margin-top: 25px;
+}
+.main{
+     height: 300px;width: 720px;
+     float: left;
+     /*border: 1px solid #000000;*/
+     /*margin-left: 60px;*/
+     margin-top: 10px;
+}
+.mainword{
+     width: 600px;
+     height: 50px;
+     margin: 0 auto;
+    /* border: 1px solid #000000;*/
+     font-size: 18px;
+     color: #666666;
+}
+.mainpictrue{
+     width: 400px;
+     height: 240px;
+     margin: 10px auto;
+     border: 2px solid #e7e7e7;
+     margin-top: 5px;
+}
+.mainpictrue img{
+    width: 400px;
+    height: 240px;
+}
+#mainpictrue2{
+  width: 400px;
+     height: 240px;
+     margin: 10px auto;
+     border: 2px solid #e7e7e7;
+     margin-top: 5px;
+}
+#mainpictrue2 img{
+    width: 400px;
+    height: 240px;
+}
+
+#mainpictrue1{
+     width: 400px;
+     height: 240px;
+     margin: 10px auto;
+     border: 2px solid #e7e7e7;
+     margin-top: 5px;
+}
+#mainpictrue1 img{
+    width: 400px;
+    height: 240px;
+}
+a{
+  	text-decoration: none;
+  }
+
+
+
+  div:hover .close {
+   display: block;
+}
+        .close { 
+        	display: none; 
+        	top:0px; right: 0px; 
+        	width: 28px; 
+        	height: 28px; 
+        	border: 1px solid #eee; 
+        	float: right;
+        	background: #f2f4f7; 
+        	line-height: 27px; 
+        	text-align: center;
+        }
+        .close:hover { 
+        	background: #c8d2e2; 
+        	text-decoration: none;
+        }
+
+
+
+    .comment{                                /*整个评论区的*/
+        margin-left: 30px;
+        width: 652px;height: 350px;
+        border:1px solid #000000;
+        float: left;
+        margin-top: 10px;
+    }
+    .commentMid1{                          /*多少人觉得赞*/
+        float: left;
+        width: 642px;height: 30px;
+        margin-top: 5px;
+        background-color: #F7F7F7;
+        padding-left: 10px;
+        padding-top: 5px;
+        margin-left: 40px;
+    }
+    .user {                       /*“我”的字体颜色*/
+    	color: #369; 
+    }
+    .time{                          /*评论左上角的发表时间*/
+        color: #ccc;
+         float: left; 
+         height: 20px; 
+         padding-left: 20px; 
+         background: url('../../comment/images/bg1.jpg') no-repeat left top;
+    }
+    .praise{                        /*右上角的赞*/
+    	color: #369; 
+    	float: right; 
+    	height: 20px;
+    	 padding-left: 20px;
+    	 background: url("../../comment/images/praise.png") no-repeat left top;
+    	 margin-right: 32px;
+    	 /*border:1px solid #000000;*/
+    }
+     .praise:hover { 
+     	text-decoration: underline; 
+     	background: url("../../comment/images/bg3.jpg") no-repeat left top;
+     	margin-right: 32px;
+     }
+    .praises-total{ /*margin: 0 0 10px 0;*/ 
+    	/*height: 20px; */
+    	background: url('../../comment/images/bg2.jpg') no-repeat 5px 5px rgb(247, 247, 247); 
+    	padding: 5px 0 5px 25px;
+    	line-height: 19px;
+        float: left;
+        width: 625px;height: 20px;
+        margin-top: 5px;
+        /*background-color: #F7F7F7;*/
+        /*padding-left: 10px;
+        padding-top: 5px;*/
+        margin-left: 40px;
+    }
+    .comment-box {                          /*最顶端的时间和赞的盒子*/                    
+    	padding: 10px 0; 
+    	border-top: 1px solid #eee;
+    	float: left;
+    	margin-left: 40px;
+    }
+        .comment-box .myhead {              /*头像*/
+         float: left; 
+         width: 55px; height: 55px; 
+         margin-right: 10px;
+         margin-top: 10px;
+     }
+        .comment-box .comment-content {        /*装评论内容的盒子*/
+        	float: left; 
+        	width: 585px;
+        	margin-top: 10px; 
+        	/*border:1px solid #000000; */
+        }
+        .comment-box .comment-content .comment-time {       /*评论的时间*/
+        	color: #ccc; 
+        	margin-top: 22px; 
+        	line-height: 16px; 
+        	position: relative;
+        }
+        .comment-box .comment-content .comment-text{
+
+        }
+        .comment-box .comment-content .comment-praise{           /*评论的赞*/
+        	display: none; 
+        	color: #369; 
+        	padding-left: 17px; 
+        	height: 20px; 
+        	background: url("../../comment/images/praise.png") no-repeat;  
+        	position: absolute; 
+        	bottom: 0px; 
+        	right: 44px;
+        }
+        .comment-box .comment-content .comment-operate {           /*删除的盒子*/
+        	display: none; 
+        	color: #369; 
+        	height: 20px;  
+        	position: absolute; 
+        	bottom: 0px; 
+        	right: 10px;
+        }
+        .comment-box .comment-content:hover .comment-praise{    /*鼠标滑过时显示*/
+        	display: inline-block;
+        }
+        .comment-box .comment-content:hover .comment-operate{  /*鼠标滑过时显示*/
+        	display: inline-block;
+        }
+        .text-box .commenttext { 
+        	border: 1px solid #eee; 
+        	display: block; 
+        	height: 15px; width: 640px; 
+        	padding: 5px; 
+        	resize: none; 
+        	color: #ccc;
+        	float: left;
+        	margin-left: 40px;
+        }
+        .text-box .btn {                               /*文本域回复按钮*/
+        	font-size: 12px; 
+        	font-weight: bold; 
+        	display: none; 
+        	float: right;
+        	margin-right: 28px; 
+        	width: 65px; 
+        	height: 25px; 
+        	border: 1px solid #0C528D; 
+        	color: #fff; 
+        	background: #4679AC;
+        }
+        .text-box .btn-off { 
+        	border: 1px solid #ccc; 
+        	color: #ccc; 
+        	background: #F7F7F7;
+        }
+        .text-box .word{                        
+        	display: none; 
+        	float: right; 
+        	margin: 7px 10px 0 0; 
+        	color: #666;
+        }
+        .text-box-on .commenttext{ 
+        	height: 50px; 
+        	color: #333;
+        }
+        .text-box-on .btn{ 
+        	display: inline;
+        }
+        .text-box-on .word{ 
+        	display: inline;
+        }
+        .hidden{                     /*鼠标移开后删除和回复隐藏*/
+        	display: none
+        }
+        #morepage{
+            width: 720px;height: 30px;
+           /* border: 1px solid #000000;*/
+            text-align: center;
+            float: left;
+            margin-top: 50px;
+            cursor: pointer;
+            color: #666666;
+        }
+        #morepage:hover{
+            background-color: #E0DFDF;
+            color: #666666;
+        }
+        #touxiang{
+          float: left;
+        }
+        #touxiang img{
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+        }
+        #pltouxiang{
+          float: left;
+        }
+        #pltouxiang img{
+         width: 55px; height: 55px; 
+         margin-right: 10px;
+         margin-top: 10px;
+        }

@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+		#main1{                                 /*表单内容  */                                       
+			margin:40px 0 0 115px;
+			/*border: 1px solid #000000;*/
+			width: 650px;height: 285px;
+			float: left;
+
+		}
+		input:focus{
+            outline:none;
+        }
+		.word{
+			color: #575555;
+			font-size: 18px;
+		}
+		.word1{
+			color: #575555;
+			font-size: 15px;
+		}
+		.user{
+			width: 240px;
+			height: 30px;
+		}
+		#QRMM{
+              float: left;
+              width: 54px;height: 40px;
+              /*border:1px solid #000000*/;
+              margin-bottom: 15px;
+              margin-top: 15px;
+		}
+		#QRMM1{
+			  float: left;
+              width: 580px;height: 35px;
+             /* border:1px solid #BE3434;*/
+              padding-top: 5px;
+              padding-left: 1px;
+              margin-bottom: 15px;
+              margin-top: 15px;
+		}
+
+		#zhanghao1{                         /*提示隐藏*/
+			display: none;
+			color: #575555;
+		}
+		#zhanghao2{                         /*账号提示*/
+			color: #575555;
+			display: inline;
+			font-size: 12px;
+		}
+		#zhanghao3{                         /*格式有误*/
+			display: inline;
+			color: #0A8A33;
+			font-size: 15px;
+			font-weight: bold;
+		}		
+		#zhanghao4{                        /*账号通过*/   
+			display: inline;
+			color: #FD030D;
+			font-size: 12px;
+			font-weight: bold;
+		}
+		#mima1{                               /*提示隐藏*/
+			display: none;
+			color: #575555;
+		}
+		#mima2{                                 /*密码提示*/
+			color: #575555;
+			display: inline;
+			font-size: 12px;
+		}
+		#mima3{                         /*格式有误*/
+			display: inline;
+			color: #0A8A33;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		#mima4{                        /*密码通过*/   
+			display: inline;
+			color: #FD030D;
+			font-size: 12px;
+			font-weight: bold;
+		}
+		#wholeMMQD{
+			width: 246PX;height: 29px;
+			margin-left: 58px;
+			margin-top: 1px;
+		}
+		#MMQDR{
+            width: 30px;height: 23px;
+            background-color: #FABA74;
+            float: left;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            padding-left: 32px;
+            padding-top: 2px;
+		}
+		#MMQDR1{
+            width: 30px;height: 23px;
+            background-color: #F02C16;
+            float: left;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            padding-left: 32px;
+            padding-top: 2px;
+		}
+		#MMQDZ{
+            width: 30px;height: 23px;
+            background-color: #FABA74;
+            float: left;
+            padding-left: 32px;
+            padding-top: 2px;
+		}
+		#MMQDZ1{
+            width: 30px;height: 23px;
+            background-color: #F02C16;
+            float: left;
+            padding-left: 32px;
+            padding-top: 2px;
+		}
+		#MMQDQ{
+            width: 30px;height: 23px;
+            background-color: #FABA74;
+            float: left;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding-left: 32px;
+            padding-top: 2px;
+		}
+		#MMQDQ1{
+            width: 30px;height: 23px;
+            background-color: #F02C16;
+            float: left;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding-left: 32px;
+            padding-top: 2px;
+		}
+		.QDWORD{
+			color: #FFFFFF;
+		}
+		#mimayz1{                             /*  提示隐藏 */
+			/*display: none;*/
+			color: #0A8A33;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		#mimayz2{
+			color: #575555;
+			display: inline;
+			font-size: 12px;
+		}
+		#answer1{
+			display: inline;
+			color: #575555;
+			font-size: 12px;
+		}

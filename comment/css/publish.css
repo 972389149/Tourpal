@@ -1,0 +1,72 @@
+#publish{
+	width: 650px;height: 96px;
+	float: left;
+	/*margin:0px auto;*/
+	/*border: 1px solid #000000;*/
+	margin-left: 40px;
+	background:url(../../comment/images/bg1.jpg) no-repeat left bottom;
+	color: #666666;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+#inpublish{
+    width: 420px;height: 75px;
+    float: left;
+    border: 1px solid #000000;
+}
+#mainpictrue3{
+    float: left;
+    width: 100px;
+    height: 75px;
+    border:2px solid #aaa;
+    background: url(../../homepage/pictures/addpic.jpg) no-repeat;
+    background-position:center center;
+    background-size: 50px 50px;
+}
+#mainpictrue3 img{
+    width: 100px;
+    height: 75px;
+}
+
+#pubbutton{
+	width: 86px;
+	height: 35px;
+	float: left;
+	padding-left: 30px;
+	background-color: #438FF6;
+	transition-duration: 0.3s;
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 9px;
+	cursor: pointer;
+	border:2px solid #aaa;
+	border-bottom: none;
+	border-left: none;
+}
+#picbutton{
+	width: 89px;
+	height: 29px;
+	float: left;
+	color: #ffffff;
+	font-size: 15px;
+	cursor: pointer;
+	border:2px solid #aaa;
+	padding-left: 27px;
+   border:2px solid #aaa;
+	border-left: none;
+}
+#pubbutton:hover{
+	background-color: #3F4CEF;
+}
+#publishcon{
+	float: left;
+	width: 410px;
+	height: 75px;
+	border:2px solid #e7e7e7;
+	/*border-right: none;*/
+}
+#allsee{
+	float: left;
+	margin-left: 20px;
+}

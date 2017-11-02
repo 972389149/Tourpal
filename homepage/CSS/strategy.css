@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+/*驴友攻略*/
+#wholestrategy
+{
+	height:550px;width:719px;
+   /* border:1px solid #F70206 ;*/
+	border-bottom:#E1E1E1 2px solid;
+	float:left;
+}
+#wholestrategyleft
+{
+	width:502px;height:520px;
+	/*border:#000000 1px solid;*/
+	float:left;
+}
+#wholestrategyright
+{
+	width:180px;height:520px;
+	/*border:#000000 1px solid;*/
+	float:left;margin-top:10px;
+}
+#strategyword
+{
+	width:508px;height:130px;
+	/*border:#000000 solid 1px;*/
+	margin:15px 0 0 0;padding-top:10px;
+	float:left;
+}
+#strategyrank1
+{
+	width:180px;height:380px;
+	float:left;
+	margin:0 0 0 30px;
+}
+#strategyrank2
+{
+	width:180px;height:150px;
+	float:left;
+	margin:5px 0 0 30px;
+}
+#strategypic
+{
+	width:500px;height:340px;
+	border:#1880CB solid 1px;
+	margin:0 0 0 0;
+	float:left;
+}
+.strategyHeadstyle
+{
+	font-family:微软雅黑;font-size:15px;
+	color:#666666;
+	list-style:none;
+}
+.strategyHeadstyle2
+{
+	font-family:微软雅黑;font-size:12px;
+	color:#666666;
+}
+.inbox1                             /*攻略下载排行榜头*/
+{
+	width:155px;height:20px;
+	font-size:14px;
+	color:#666666;
+	margin-top:10px;margin-left:15px;
+}
+.inbox2                             /*攻略下载排行榜身*/
+{
+	width:145px;height:24px;
+	
+	margin-top:10px;margin-left:15px;
+	padding-top:6px;padding-left:10px;
+	border:0;
+	border-bottom:#E1E1E1 1px solid;
+
+}

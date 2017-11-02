@@ -1,0 +1,134 @@
+#wholepersonmessage{
+	float: left;
+	width: 100%;
+	height: 606px;
+	background:url(../../homepage/pictures/personpic.jpg) no-repeat left top;
+	background-size:100% 100%;
+}
+#inwholepersonmessage{
+	margin: auto;
+	width: 720px;
+	height: 500px;
+	background-color:#191919;
+	opacity:0.8;
+	margin-top: 30px;
+}
+#personhead{
+    float: left;
+    width: 683px;
+    height: 30px;
+    font-size: 19px;
+    color: #666666;
+    padding: 20px 0 0 37px;
+    /*border: 1px solid #000000;*/
+}
+#personmessage1{
+	float: left;
+	margin-left: 30px;
+	width:250px;
+	height: 385px;
+	/*border: 1px solid #000000; */
+}
+#personmessage2{
+	float: left;
+	margin-left: 10px;
+	width:250px;
+	height: 385px;
+	/*border: 1px solid #000000; */
+}
+#personpic{
+	float: right;
+	margin:17px 50px 0 0; 
+	border: 2px solid #ffffff; 
+	width: 100px;
+	height: 100px;
+}
+#personpic img{
+	width: 100px;
+	height: 100px;
+}
+#personpicword1{
+	float: right;
+	margin:2px 50px 0 0; 
+	border: 2px solid #ffffff; 
+	width: 82px;
+	height: 25px;
+	background-color: #aaa;
+	padding-left: 18px;
+}
+/*#personpicword button{
+	width:100px;
+	height: 25px;
+	border: none;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}*/
+/*#personpicword button:hover{
+	background-color: #aaa;
+}*/
+#personcomfirm{
+	float: left;
+	margin:5px 0 0 130px;
+	padding-top: 3px;
+	width: 300px;
+	height: 37px;
+	text-align: center;
+	font-size: 22px;
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #438FF6;
+	border-radius: 7px;
+	transition-duration: 0.4s;
+}
+#personcomfirm:hover{
+	background-color: #1B32D7;
+}
+#inwholepersonmessage input{
+	width: 150px;
+}
+.person1{
+    width: 230px;
+    height: 25px;
+    /*border: 1px solid #000000;*/
+    float: left;
+    margin:18px 0 0 10px;
+    color: #666666;
+}
+.person2{
+    width: 170px;
+    height: 20px;
+    /*border: 1px solid #000000;*/
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666666;
+    padding-left: 40px;
+}
+#birthday1p{
+	width: 170px;
+    height: 20px;
+    /*border: 1px solid #000000;*/
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666666;
+    padding-left: 55px;
+}
+#sexp option{
+	width: 132px;
+}
+#languagep option{
+	width: 132px;
+}
+#bloodtypep option{
+	width: 132px;
+}
+#birthdayap{
+	width: 40px;
+}
+#birthdaybp{
+	width: 40px;
+}
+#birthdaycp{
+	width: 40px;
+}

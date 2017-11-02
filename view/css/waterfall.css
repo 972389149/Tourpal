@@ -1,0 +1,53 @@
+#allwater{
+	width: 100%;
+	float: left;
+}
+#waterfall{
+    width: 1000px;
+    margin: 14px auto;
+    position: relative;
+}
+#waterfall li{
+	float: left;
+	list-style-type: none;
+}
+.pic{
+    padding: 15px 0 0 15px;
+    float:left;
+}
+.inpic{
+	padding: 10px;
+    /*border:1px solid #ccc;*/
+    box-shadow: 0 0 6px #ccc;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    transition-duration: 0.3s;
+}
+.inpic img{
+	width:160px;
+    height:auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inpic:hover{
+      background-color: #C8C3C3;
+}
+#beauty{
+    width: 100%;
+    height: 10px;
+    color: #383838;
+    font-size: 16px;
+}
+#inbeauty{
+    width: 975px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+#beautypic{
+    width: 3px;
+    height: 25px;
+    background-color:#188946 ;
+    float: left;
+    margin-right: 4px;
+}

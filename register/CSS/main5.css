@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+		#mian5{
+			margin:0 0 0 80px;
+			border-top: 2px solid #e7e7e7;
+			width: 310px;height: 80px;
+			padding-top: 5px;
+			float: left;
+		}
+		#main5Con{
+			margin:0 0 0 99px;
+		}
+		#main5Pic{
+			margin:0 0 0 120px;
+		}
+		
+		
